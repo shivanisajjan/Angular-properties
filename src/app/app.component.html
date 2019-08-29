@@ -1,0 +1,14 @@
+<style>
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+  }
+
+  @media screen and (max-width: 575px) {
+  }
+</style>
+
+<div>
+    <h1 style="text-align: center;">{{message}}</h1>
+</div>
+<app-prac (child)="message=$event" [parentData]="name" [parentData1]="name1"></app-prac>
+<app-prac1></app-prac1>
